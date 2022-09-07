@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="myscripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+    <title>About Me</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+        .body {
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .tab {
+            overflow: hidden;
+            border-radius: 2px 2px;
+        }
+
+
+        .tab button {
+            background-color: initial;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+        }
+
+        .tab button:hover {
+            background-color: #ffdfd3;
+
+        }
+
+        .tab button.active {
+            background-color: #d49e7a;
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            background-color: #5f3310;
+        }
+    </style>
+
+</head>
+
+<body background="../src/background.png">
+    <center>
+        <h1 style="font-family: 'Combo', cursive; font-size: 100px; color:black;">All About Me</h1>
+    </center>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'wena')"> <img src="../src/wena.jpg"
+                style="width: 189px; height: 250px; border: 1px black;" alt=""></button>
+        <button class="tablinks" onclick="openCity(event, 'wens')"><img src="../src/wena.jpg" style="width: 189px; height: 250px; border: 1px black;"
+                alt=""></button>
+        <button class="tablinks" onclick="openCity(event, 'wenss')"><img src="../src/wena.jpg" style="width: 189px; height: 250px; border: 1px black;"
+                alt=""></button>
+        <button class="tablinks" onclick="openCity(event, 'wen')"><img src="../src/wena.jpg" style="width: 189px; height: 250px; border: 1px black;"
+                alt=""></button>
+        <button class="tablinks" onclick="openCity(event, 'wenn')"><img src="../src/wena.jpg" style="width: 189px; height: 250px; border: 1px black;"
+                alt=""></button>
+        <button class="tablinks" onclick="openCity(event, 'wenay')"><img src="../src/wena.jpg" style="width: 189px; height: 250px; border: 1px black;"
+                alt=""></button>
+    </div>
+
+    <div id="wena" class="tabcontent">
+        <h3 style="font-family: 'Combo', cursive;">Likes:</h3>
+        <p>Eat sweets</p>
+        <p>Read books</p>
+        <p>Watching k-drama series and movies</p>
+    </div>
+
+    <div id="wens" class="tabcontent">
+        <h3 style="font-family: 'Combo', cursive;">Dislikes:</h3>
+        <p>Toxic people</p>
+        <p>Noisy Environment</p>
+        <p>People who lies</p>
+    </div>
+
+    <div id="wenss" class="tabcontent">
+        <h3 style="font-family: 'Combo', cursive;">To Travel:</h3>
+        <p>South Korea</p>
+        <p>Paris</p>
+        <p>Japan</p>
+    </div>
+
+
+    <div id="wen" class="tabcontent">
+        <h3 style="font-family: 'Combo', cursive;">Personality;</h3>
+        <p>Annoying</p>
+        <p>Funny</p>
+        <p>Simple</p>  
+    </div>
+
+    <div id="wenn" class="tabcontent">
+        <h3 style="font-family: 'Combo', cursive;">Pets:</h3>
+        <p>Dog</p>
+        <p>Cat</p>
+        <p>Hamster</p>
+    </div>
+
+    <div id="wenay" class="tabcontent">
+        <h3 style="font-family: 'Combo', cursive;">To explore:</h3>
+        <p>Business</p>
+        <p>Investments</p>
+        <p>North Korea</p>
+        
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+</body>
+
+
+</html>
