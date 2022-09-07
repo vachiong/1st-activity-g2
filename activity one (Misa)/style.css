@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+  background-color: #b67a63;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #986C67;
+}
+
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+
+#Games {background-image: url(./img/game.gif);}
+#Games{ background-repeat: no-repeat;}
+#Games{ background-size: cover;}
+#Games{ height: 18rem;}
+#Games h1{color: #986C67; }
+#Games p{ color: white;}
+#Games p{ font-size: 25px;}
+#Games p {padding-top: 2rem;}
+
+
+#Hobbies{background-image: url(./img/hobbies.gif);}
+#Hobbies{ background-repeat: no-repeat;}
+#Hobbies{ background-size: cover;}
+#Hobbies{ height: 18rem;}
+#Hobbies h1{color: #986C67; }
+#Hobbies p{ color: orange;}
+#Hobbies p{ font-size: 25px;}
+#Hobbies p {padding-top: 2rem;}
+
+
+
+#Favorite {background-image:url(./img/m.gif);}
+#Favorite{ background-repeat: no-repeat;}
+#Favorite{ background-size:cover;}
+#Favorite{ height: 18rem;}
+#Favorite h1{color: #986C67; }
+#Favorite p{ color: white;}
+#Favorite p{ font-size: 25px;}
+#Favorite p {padding-top: 2rem;}
+
+
+
+
+
+#About {background-image: url(./img/self.webp);}
+#About{ background-repeat: no-repeat;}
+#About{ background-size: cover;}
+#About{ height: 18rem;}
+#About h1{color: #986C67; }
+#About p{ color: white;}
+#About p{ font-size: 25px;}
+#About p {padding-top: 2rem;}
+
+
+    
+  
+  
+  :before, :after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 25rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    height: 20rem;
+    padding: 50px;
+    text-align: center;
+    background-color: 	#C3BCAF;
+    color: #986C67;
+   
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #986C67;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #b67a63;
+    color: white;
+  }
+  footer:hover{
+    background-color:  #555;
+  }
