@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="Hobbies" class="tabcontent">
+        <h1>Hobbies</h1>
+        <p>I like playing chess, cooking , watching anime and k-drama.</p>
+    </div>
+
+    <div id="Favorite" class="tabcontent">
+        <h1>Favorite</h1>
+        <p>My favorite color is black and gray. And also I love cat and moon.</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h1>About Self</h1>
+        <p>I'm introvert when I'm alone and extrovert when I have companion.</p>
+    </div>
+
+    <div id="Games" class="tabcontent">
+        <h1>Games </h1>
+        <p>I play Dota 2 and Mobile legend but I prefer in Dota 2 And my highest rank is Ancient 1 having 3k mmr.</p>
+    </div>
+
+    <button class="tablink" onclick="openCity('Games', this, '#986C67')" id="defaultOpen">Games</button>
+    <button class="tablink" onclick="openCity('Favorite', this, '#986C67')">Favorite</button>
+    <button class="tablink" onclick="openCity('About', this, '#986C67')">About Self</button>
+    <button class="tablink" onclick="openCity('Hobbies', this, '#986C67')">Hobbies</button>
+
+    <div style="margin-top:3rem;" class="about-section">
+        <h1>About Us Page</h1>
+        <br>
+        <br>
+        <br>
+        <center><p style="color:#F2E9DC;padding-left:10rem;padding-right:10rem;font-size:20px; text-justify: auto;">I can say that I am a responsible and a hard-working student. Moreover, being a sociable person, I have many
+            friends since I like to communicate with people and get to know new interesting individuals. I enjoy my time
+            at school: it is really nice to study, the students are very friendly and ready to help. The atmosphere
+            cannot but make me want to go there every time. I like to receive and deal with challenging tasks.
+            I am a very enthusiastic student and I think this is a strong point of mine. <br><br><br>-chanext-</p></center>
+    </div>
+
+    <h2 style="text-align:center; margin-top: 5rem; font-size: 2rem; color: #986C67;">Favorite Places</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./img/japan.jpg" alt="Japan" style="width:100%;height: 256px;">
+                <div class="container">
+                    <h2>Japan</h2>
+                    <p class="title"><br></p>
+                    <p style="font-size: 15px;justify-items: auto;">Japan is an island country in East Asia. It is
+                        situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan, while
+                        extending from the Sea of Okhotsk
+                        in the north toward the East .</p>
+                    <br>
+                    <p><button class="button">More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/korea.jpg" alt="korea" style="width:100%">
+                <div class="container">
+                    <h2>Korea</h2>
+                    <p class="title"><br></p>
+                    <p style="font-size: 15px;justify-items: auto;">South Korea, an East Asian nation on the southern
+                        half of the
+                        Korean Peninsula, shares one of the world’s most heavily militarized borders with North Korea.
+                    </p>
+                    <br>
+                    <p><button class="button">More</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/china.jpg" alt="china" style="width:100%">
+                <div class="container">
+                    <h2>China</h2>
+                    <p class="title"><br></p>
+                    <p style="font-size: 15px;justify-items: auto;">China, officially the People's Republic of China, is
+                        a country
+                        in East Asia. It is the world's most populous country with a population exceeding 1.4 billion
+                        people.</p>
+                    <br>
+                    <p><button class="button">More</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Christian Misa Activity</p><br><br>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">gmail: 21103847@usc.edu.ph</a></p>
+      </footer>
+
+
+
+
+    <script>
+        function openCity(cityName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(cityName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+
+</head>
+
+<body>
