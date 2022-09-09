@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-image: url(https://64.media.tumblr.com/df055bb001d40494b7220f9bc34021db/tumblr_oxlgb6CqOh1vy8fb6o1_1280.jpg);
+    height: 400vh;
+    background-size: cover;
+    background-position: center;
+}
+.images h1{
+    font-size: 55px;
+    color: aliceblue;
+    padding-top: 5%;
+}
+.hobbies h1{
+    font-size: 55px;
+    color: blue;
+    padding-block-start: 3%;
+}

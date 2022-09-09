@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(https://wallpaperaccess.com/full/1769302.jpg);
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    float: right;
+    list-style-type: none;
+    padding-top: 5%;
+    padding-right: 5%;
+    flex: 2;
+}
+
+.main ul li{
+    display: inline-block;
+}
+
+.main ul li a{
+    text-decoration: none;
+    color: blue;
+    padding: 5px 20p;
+    border: 1px solid blueviolet;
+    font-size: 50px;
+}
+.main ul li a:hover{
+    background: black;
+    color: blue;
+}
+.image img{
+    float: left;
+    padding-left: 10%;
+}
+.content{
+    float: left;
+}
+.content h1{
+    float: left;
+    padding-block-start: 20%;
+    font-size: 40px;
+    color: blue;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-image: url(https://wallpaperaccess.com/full/2517559.jpg);
+    height: 400vh;
+    background-size: cover;
+    background-position: center;
+}
+.image img{
+    padding-top: 5%;
+}
+.content p{
+    padding-block-start: 4%;
+    font-size: 30px;
+    text-align: justify;
+    text-align:center;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: black;
+}

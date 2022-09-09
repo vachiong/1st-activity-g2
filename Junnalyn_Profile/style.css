@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+} 
+h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+p{
+    text-align: justify;
+}
+.banner-img{
+    background-image: url(../junnalyn/src/junna2.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    filter: blur(3px);
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 50%;
+    height: 100%;
+    padding: 30px 0;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba (0,0,0,0.3);
+    color: black;
+    font-weight: bold;
+    border: 10px inset rgb(25, 179, 240);
+    margin-left: 23%;
+}
+.banner-text p{
+    padding: 0 8%;
+    font-family: sans-serif;
+}
