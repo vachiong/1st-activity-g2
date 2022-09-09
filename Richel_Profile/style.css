@@ -7,7 +7,6 @@
 }
 
 button:hover{
-
     opacity: 0.8;
     transition: all .3s ease-in-out;
 }
@@ -15,287 +14,14 @@ body{
     background-color: #2b1055;
 }
 
-.Container {
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color:#2b1055;
-}
-nav.Container > div > img {
-    height: 70px;
-    margin-top: 1%;
-    margin-left: 1%;
-    position: absolute;
-}
-
-nav.Container > h1 {
-    float: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12pt;
-    color: white;
-    position: inherit;
-    margin-left: 150px;
-    margin-top: 25px;
-}
-
-nav.Container > p {
-    float: left;
-    color: white;
-    font-family: sans-serif;
-    font-size: 10pt;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 50px;
-}
-.menu {
-    float: right;
-    margin-top: 15px;
-    margin-right: 15px;
-}
-.menu button{
-    border: 1.5px solid white;
-}
-.nav2 {
-    background-color: rgb(160, 247, 160);
-    height: 40px;
-    position: relative;
-
-}
-.btn-change {
-    border-style: solid;
-    height: 25px;
-    background: rgb(124, 31, 161);
-}
-
-.btn-change:hover {
-    background: violet;
-}
-
-.btn-change1 {
-    border-style: solid;
-    height: 25px;
-    background: rgb(94, 8, 116);
-}
-
-.btn-change1:hover {
-    background: purple;
-}
-
-.btn-change2 {
-    border-style: solid;
-    height: 25px;
-    background: #6d5e9f;
-}
-
-.btn-change2:hover {
-    background: green;
-}
-
-
-.btn-change4 {
-    border-style: solid;
-    height: 25px;
-    background: rgb(1, 14, 1);
-}
-
-.btn-change4:hover {
-    background: green;
-}
-
-.search {
-    float: right;
-    padding-top: 0;
-    padding-right: 2%;
-    height: 10%;
-}
-
-.search input {
-    padding: 5px;
-    color: white;
-    border: 1.5px solid white;
-    background-color: transparent;
-    margin-top: 4%;
-    margin-right: 5%;
-    height: 30px;
-    width: 350px;
-}
-.search input::placeholder{
-    color: white;
-}
-span.signup > a {
-    float: right;
-    margin-right: 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    color: black;
-}
-span.signup :hover {
-    color: green;
-}
-
-.UP > img {
-    float: right;
-    height: 31px;
-    width: 31px;
-    margin-top: 5px;
-    margin-right: 10px;
-}
-
-span.login > label {
-    float: right;
-    margin-right: 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-span.login :hover {
-    color: green;
-}
-
-.IN > img {
-    float: right;
-    height: 30px;
-    width: 30px;
-    margin-top: 5px;
-    margin-right: 10px;
-}
-
-.vanie img {
-    width: 40px;
-    height: 40px;
-    margin-left: 10%;
-    float: left;
-}
-.home {
-    font-size: 12pt;
-    margin-top: 10px;
-    text-decoration: none;
-    color: black;
-    padding: 0;
-    margin-left: 10px;
-    float: left;
-}
-
-@media only screen and (max-width:500px) {
-    .search input {
-        margin-top: 52%;
-        margin-right: 5%;
-        height: 25px;
-        width: 100%;
-    }
-    span.signup > a {
-
-        margin-top: 10px;
-        text-decoration: none;
-        color: black;
-    }
-    span.login > label {
-        margin-top: 10px;
-        text-decoration: none;
-        color: black;
-    }
-    .UP > img {
-        float: right;
-        height: 31px;
-        width: 31px;
-        margin-top: 5px;
-
-    }
-    .IN > img {
-        float: right;
-        height: 30px;
-        width: 30px;
-        margin-top: 5px;
-
-    }
-
-    .nav2 {
-        background-color: rgb(160, 247, 160);
-        height: 40px;
-        margin-top: 4%;
-        position: relative;
-
-    }
-    .btn-change {
-        border-style: none;
-        display: block;
-    }
-    .btn-change1 {
-        border-style: none;
-        display: block;
-    }
-    .btn-change2 {
-        border-style: none;
-        display: block;
-    }
-    .btn-change3 {
-        border-style: none;
-        display: block;
-    }
-    .btn-change4 {
-        border-style: none;
-        display: block;
-    }
-}
-
-.J {
-    margin-top: 5%;
-    margin-left: 5%;
-    background-color: greenyellow;
-    width: 90%;
-    height: 60%;
-}
-.J img {
-    width: 60%;
-    height: 550px;
-
-    image-resolution: 720px;
-    float: left;
-    position: relative;
-}
-
-:root {
-    --light-main: rgb(160, 247, 160);
-    --light-second: green;
-    --light-hover: rgb(67, 201, 67);
-    --light-text: rgb(1, 14, 1);
-
-    --blue: green;
-    --white: #fff;
-    --font-family: cursive;
-}
-
-.light {
-    --bg-body: var(--light-body);
-    --bg-main: var(--light-main);
-    --bg-second: var(--light-second);
-    --color-hover: var(--light-hover);
-    --color-txt: var(--light-text);
-    float: right;
-    margin-right: 3%;
-    height: 65%;
-    width: 30%;
-    display: block;
-}
-
-
 .section {
     height: 250px;
     width: 100%;
 }
-
-
-@media (max-width: 644px) {
-
-    .footer-distributed {
-        font: bold 14px sans-serif;
-
-    }
-    .main {
-        line-height: normal;
-        font-size: auto;
-    }
-
+h2{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 8px white;
 }
 .bg{
     background: url(Resources/purplebeach.jpg);
@@ -304,34 +30,21 @@ span.login :hover {
     image-resolution: 1024px;
     background-size:100% 90%;
 }
+
 .body span{
     font-family: 'Times New Roman';
+    text-shadow: 2px 2px 8px black;
 }
 .bg .body{
     font-size: 1rem;
     font-weight: normal;
-    letter-spacing: 1px;
-    
-}
-.btn button{
-    margin-top: 10px;
-    width: 100px;
-    padding: 5px;
-    border: none;
-    text-transform: uppercase;
-    color: white;
-    background: #105B13;
-    border-radius: 0px 15px;
-}
-.main-abt h2{
-    color: white;
-    text-align: center ;
-    margin: 30px;
+    letter-spacing: 1px;    
 }
 
 .rppic img{
     width: 400px;
     height: 400px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 #A460ED ;
 }
 
 .def{
@@ -340,22 +53,14 @@ span.login :hover {
     margin-left: 5vh;
     color: white;
     font-size: 16px;
+    margin-top: 40px;
 }
 .rp{
     display: flex;
     margin-left: 20vh;
+    margin-top: 30px;
 }
-.def button{
-    width:100px;
-    margin-top: 8px;
-    background-color: blue;
-    text-transform: uppercase;
-    padding: 5px;
-    display: block;
-    border: none;
-    color: white;
-    text-align: center; 
-}
+
 .misdef {
     color: white;
     padding: 10px;
@@ -379,11 +84,12 @@ span.login :hover {
     letter-spacing: 1px;
 }
 
-
 .sp img{
     display: flex;
-    width: 280px;
-    height: 280px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 #A460ED ;
+    margin-top: 30px;
       
 }
 .storydef{
@@ -394,6 +100,7 @@ span.login :hover {
     font-size: 16px;
     width: 600px;
     line-height: 28px;
+    margin-top: 40px;
     
 }
 .storydef button{
@@ -429,7 +136,7 @@ span.login :hover {
     height: 386px;
 }
 .plant{
-    background: url(Resources/SMS\ -\ Copy.jpg);
+    background: url(Resources/DEOSIS.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -443,10 +150,11 @@ span.login :hover {
 }
 .img div{
     margin: 20px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
 .img div button{
     border: none ;
-    background: rgba(21, 189, 38, 0.91);
+    background: rgba(133, 72, 114, 0.91);
     border-radius: 5px;
     margin-top: 250px;
     margin-left: 120px;
@@ -471,7 +179,9 @@ span.login :hover {
     margin: 20px;
     width: 300px;
     height: 400px;
-    background: rgba(66, 226, 40, 0.03);
+    background: rgba(205, 178, 212, 0.03);
+    box-shadow: 0 4px 8px 0 #A460ED, 0 6px 20px 0 black;
+
 }
 .team .card .circle img{
     margin: 20px 0px 10px 73px;
@@ -505,7 +215,7 @@ span.login :hover {
 }
 #p{
     font-size: 20px;
-    color: red;
+    color: pink;
     padding: 10px;
     line-height: 21px;
     font-family:'Great Vibes';
@@ -539,33 +249,9 @@ span.login :hover {
     text-transform: uppercase;
     
 }
-/* .logo img{
-    width: 300px;
-    height: 170px;
-} */
-.bm{
-    width: 225px !important;
-    height: 80px !important;
-    margin: 35px 0px 50px 40px;
-}
-.logo p{
-    font-size: 12px;
-}
-
-.unbtn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .right{
     margin-left: 200px;
 }
 .images img{
     padding: 10px;
-}
-.RJCB{
-    color:#A460ED;
-    font-size: 50px;
-    margin-bottom: -80px;
 }
