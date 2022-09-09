@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Great+Vibes&family=Praise&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: all .3s ease-in-out;
+}
+body{
+    background-color: #2b1055;
+}
+
+.section {
+    height: 250px;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 8px white;
+}
+.bg{
+    background: url(Resources/purplebeach.jpg);
+    background-repeat: no-repeat;
+    height: 484px;
+    image-resolution: 1024px;
+    background-size:100% 90%;
+}
+
+.body span{
+    font-family: 'Times New Roman';
+    text-shadow: 2px 2px 8px black;
+}
+.bg .body{
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 1px;    
+}
+
+.rppic img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 #A460ED ;
+}
+
+.def{
+    margin-right: 10vh;
+    padding: 20px;
+    margin-left: 5vh;
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.rp{
+    display: flex;
+    margin-left: 20vh;
+    margin-top: 30px;
+}
+
+.misdef {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration-line:overline;
+}
+.story{
+    margin-top: 25px;
+    display: flex;
+    margin-left: 20vh;
+}
+.story h5{
+    color: white;
+    text-align: left; 
+    margin-top: 5px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.sp img{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 #A460ED ;
+    margin-top: 30px;
+      
+}
+.storydef{
+    margin-right: 9vh;
+    padding: 10px;
+    margin-left: 8vh;
+    color: white;
+    font-size: 16px;
+    width: 600px;
+    line-height: 28px;
+    margin-top: 40px;
+    
+}
+.storydef button{
+    display: block;
+    border: none;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    background-color: red;
+    width: 100px; 
+}
+.action h6{
+    color: white;
+    text-align: center;
+    font-size:  1.5rem;
+    margin: 30px 0;
+}
+.planting{
+    background: url(Resources/USC.jpg);
+    background-repeat: no-repeat;
+    width: 362px;
+    height: 386px;
+    background-size: cover;
+    background-position: center;
+}
+.recycle{
+    background: url(Resources/SMS\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 362px;
+    height: 386px;
+}
+.plant{
+    background: url(Resources/DEOSIS.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 362px;
+    height: 386px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img div{
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.img div button{
+    border: none ;
+    background: rgba(133, 72, 114, 0.91);
+    border-radius: 5px;
+    margin-top: 250px;
+    margin-left: 120px;
+    width: 120px;
+    padding: 10px;
+    text-transform: uppercase ;
+    color: white;
+}
+.team h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    background: rgba(205, 178, 212, 0.03);
+    box-shadow: 0 4px 8px 0 #A460ED, 0 6px 20px 0 black;
+
+}
+.team .card .circle img{
+    margin: 20px 0px 10px 73px;
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-shadow: 5px 5px 3px black;
+    font-family: 'Times New Roman', Times, serif
+}
+.pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+    text-shadow: 5px 5px 3px black  ;
+}
+#p{
+    font-size: 20px;
+    color: pink;
+    padding: 10px;
+    line-height: 21px;
+    font-family:'Great Vibes';
+    text-shadow: 5px 5px 3px black;
+    text-align: center;
+    margin-top: 0;
+}
+.card p{
+    font-size: 20px;
+    color: #A460ED;
+    padding: 5px;
+    line-height: 21px;
+    text-shadow: 5px 5px 3px black;
+    text-align: center;
+    margin-top: -50px;
+}
+.card .img{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img:hover{
+    opacity: 0.8;
+    transition: all .3s ease-in-out;
+}
+.partners h1{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.right{
+    margin-left: 200px;
+}
+.images img{
+    padding: 10px;
+}
