@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: monospace;
+}
+.welcome h1{
+    margin-top: 5%;
+}
+.image img{
+    width: 35%;
+    height: 45vh;
+}
+.about h2{
+    margin: 2% 15% 5% 15%;
+}
