@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+/* .navbar-brand{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    left: 20px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+  
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color:transparent;
+    font-size: 25px;
+    border-bottom: 1px solid;
+} */
+span{
+    color: red;
+    text-transform: uppercase;
+}
+/* .navbar ul{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    display: inline-block; 
+    padding: 20px 15px; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase; 
+}
+.navbar ul li a:hover{
+    color: #FFC0CB;
+  
+}
+.navbar ul li{
+    display: inline-block;  
+} */
+.content{
+    position: relative;
+    text-align: center;
+    padding: 200px;
+   
+}
+.content h1{   
+    color: #EDA6C4;
+    font-size: 80px;
+}
+.content h2{
+    
+    color: black;
+    font-size: 80px;
+}
+body{ 
+    
+     background: url(pastel-ombre-background-pink-purple_53876-120750.webp) no-repeat;
+     display: grid;
+     place-items: center center;
+     height: 100%;
+    }
+.background ul li{
+    
+    position: absolute;
+    width: 50px;
+    color: whitesmoke;
+    height: 50px;
+    list-style:none;
+    opacity:0;
+    background:radial-gradient(#EDA6C4,transparent,transparent);
+    bottom: 0;
+    left: 10vw;
+    animation: animate 15s linear infinite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.background ul li:nth-child(2){
+    left: 50vw;
+    animation-delay: 2s;
+}
+.background ul li:nth-child(3){
+    left: 26vw;
+    animation-delay: 5s;
+}
+.background ul li:nth-child(4){
+    left: 60vw;
+    animation-delay: 7s;
+}
+.background ul li:nth-child(5){
+    left: 70vw;
+    animation-delay: 9s;
+}.background ul li:nth-child(6){
+    left: 80vw;
+    animation-delay: 8  s;
+}
+@keyframes animate {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+        bottom: 0;
+    }
+    100%{
+        transform: scale(10);
+        opacity: 0;
+        bottom: 100vh;
+    }
+}
+/* hobbies page */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 20px;
+    grid-gap: 30px;
+    text-align: center;
+    
+}
+.card{
+    box-shadow: 0 0 30px rgb(red, green, blue);
+    background-color: aliceblue;
+    box-shadow: 0 0 30px rgb(rgb(0, 0, 0,0.18)) ;
+}
+.container{
+    position: relative;
+    /* clip-path: polygon(0 0, 100% 0, 100% 85%,0 100%); */
+}
+img{
+    width: 100%;
+    display: block;
+
+}
+.details{
+    padding: 20px 10px;
+}
+.details>h3{
+    margin:10px 0 15px 0;
+    text-transform: uppercase;
+
+}
+.details>p{
+    margin:10px 0 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: blue;
+}
